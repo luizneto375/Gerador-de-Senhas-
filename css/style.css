@@ -20,9 +20,9 @@ input:focus {
 }
 
 #container {
-    max-width: 900px;
+    max-width: 800px;
     min-height: 80vh;
-    margin: 2rem auto;
+    margin: 3rem auto;
     display: flex;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -40,4 +40,11 @@ input:focus {
     padding: 2rem;
     display: flex;
     align-items: center;
+}
+
+#banner-camada h1 {
+    font-size: 3.1rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    word-spacing: 50rem;
 }
