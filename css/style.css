@@ -67,4 +67,22 @@ input:focus {
     text-align: center;
     margin-bottom: 1.5rem;
     color: #aaa;
+    font-size: 0.8rem;
+}
+
+.control-form {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-form label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+
+.control-form input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: .6rem;
 }
