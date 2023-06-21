@@ -133,3 +133,21 @@ input:focus {
 #container input[type="submit"]:hover {
     opacity: 1;
 }
+
+@media (max-width: 350px) {
+    #container {
+        width: 100%;
+        
+       
+    }
+
+    #banner_camada {
+        width: 100%;
+        
+    }
+
+    body {
+        width: 100%;
+        min-width: 450px;
+    }
+}
