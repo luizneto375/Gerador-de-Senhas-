@@ -16,29 +16,43 @@
                 <h1>Seja bem-vindo!</h1>
             </div>
         </div>
+        <div>
+    
+        </div>
         <div id="formulario">
             <h2>Crie sua conta:</h2>
             <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
             <div class="control_form">
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="Digite o seu nome:">
+                <label for="name">Nome</label > 
+                <input type="text" name="name" id="name" placeholder=  "Digite o seu nome:" >
             </div>
             <div class="control_form">
                 <label for="name">E-mail</label>
                 <input type="text" type="email" id="email" placeholder="Digite o seu e-mail:">
             </div>
-            <div class="control_form">
+            <div class="control_form"> 
                 <label for="password
-                ">Senha</label>
-                <input type="text" type
-                ="password
-                " id="password
+                ">Senha</label> 
+                <input type="password" type
+                ="password 
+                " id="password 
                 " placeholder="Digite a sua senha:">
             </div>
+            
             <p>Quer ajuda para criar uma senha segura? <span id="ajuda_password">Clique aqui.</span></p>
             <div id="ajuda_senha_password">
-                <p>Aqui está a sua senha:</p>
-                <h4></h4>
+                <div class="selecao">
+                    <p class="marcacao">Selecione as opções que você deseja:</p>
+                    <p class="todos">Quantidade de caracteres:<input type="number" id="marque"></p>
+                    <p class="todos">Letras:<input type="checkbox" id="marque"></p>
+                    <p class="todos">Números:<input type="checkbox" id="marque"></p>
+                    <p class="todos">Símbolos<input type="checkbox" id="marque"></p>
+                </div>
+                <div class="criar_senha">
+                <input type="submit" value="Criar senha">
+                    <p class="senha1">Aqui está a sua senha:</p>
+                    <h4></h4>
+                </div>
             </div>
             <div class="control_form">
                 <label for="confirmpassword">Confirmação de Senha:</label>
